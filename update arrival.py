@@ -9,7 +9,7 @@ def update_arrival(h,m,d):
     >> > update_arrival(23, 57, 5 + 24 * 60)
     (0, 2)
     """
-    mt= h * 60 +m+d
+    mt = h * 60 +m+d
     nh = mt//60 % 24
     nm = mt % 60
     return nh,nm
